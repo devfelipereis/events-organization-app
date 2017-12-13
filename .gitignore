@@ -1,0 +1,5 @@
+# server stuff
+server/node_modules
+
+# client stuff
+client/node_modules
