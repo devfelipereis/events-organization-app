@@ -2,16 +2,19 @@
   "name": "events-organization-app-server",
   "version": "0.0.1",
   "description": "Server for Events Organization App",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev3": "babel-node server.js"
+    "dev3": "babel-node index.js"
   },
   "author": "Felipe Reis",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
+    "http-status": "^1.0.1",
     "mongoose": "^4.13.7"
   },
   "devDependencies": {
