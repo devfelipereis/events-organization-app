@@ -22,9 +22,7 @@ export class EventsPage extends React.PureComponent {
   /**
    * when initial state username is not null, submit the form to load repos
    */
-  componentDidMount() {
-    console.log(this.props.data.events);
-  }
+  componentDidMount() {}
 
   render() {
     return (
