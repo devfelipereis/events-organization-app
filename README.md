@@ -2,7 +2,7 @@
 
 # Studying React + NodeJS + Express + GraphQL + MongoDB
 
-First off, I'm a beginner learning this technologies, any weird stuff is part of process :)
+First off, I'm a beginner learning this technologies, any weird stuff is part of the process :)
 
 I'm reading the source code of other stacks and creating a small one to understand the basics. I think this is a good way to learn once I copy/paste/edit and create some small parts of code. This helps me to understand 
 more easily and learn faster.
