@@ -4,7 +4,7 @@
 
 First off, I'm a beginner learning this technologies, any weird stuff is part of process :)
 
-I'm reading the source code of other stacks and creating a small one to understand the basics. I think this is a good way to learn once I copy/paste/edit and create some small parts of code. This helps me to understand 
+I'm reading the source code of other stacks and creating a small one to understand the basics. I think this is a good way to learn once I copy/paste/edit and create some small parts of code. This helps me to understand
 more easily and learn faster.
 
 Here you can see stuff from https://github.com/react-boilerplate/react-boilerplate and https://github.com/linnovate/mean. I also read some tutorials from personal blogs, medium, etc...
@@ -12,13 +12,19 @@ Here you can see stuff from https://github.com/react-boilerplate/react-boilerpla
 # What is inside?
 
 * React https://reactjs.org
-* Redux https://redux.js.org
+* <strike>Redux https://redux.js.org</strike>
 * ApolloClient https://github.com/apollographql/apollo-client
 * NodeJS https://nodejs.org
 * Express http://expressjs.com
 * GraphQL http://graphql.org https://github.com/graphql/express-graphql
 * MongoDB https://www.mongodb.com/
 * Mongoose http://mongoosejs.com/
+
+# Links
+
+* https://github.com/linnovate/mean
+* https://github.com/react-boilerplate/react-boilerplate
+* http://minocys.azurewebsites.net/auth-with-mongoose
 
 # Enjoy :p
 

@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import morgan from 'morgan';
 import bodyParser from 'body-parser';
 import { graphql } from 'graphql';
 import graphqlHTTP from 'express-graphql';
@@ -9,6 +10,8 @@ import schema from '../graphql/Schema/Schema';
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+// TODO: detect envs... morgan should be used only for development
+app.use(morgan('combined'));
 app.use(cors());
 
 app.use('/api', routes);
