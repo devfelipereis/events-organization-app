@@ -25,6 +25,7 @@ Here you can see stuff from https://github.com/react-boilerplate/react-boilerpla
 * https://github.com/linnovate/mean
 * https://github.com/react-boilerplate/react-boilerplate
 * http://minocys.azurewebsites.net/auth-with-mongoose
+* https://www.howtographql.com
 
 # Enjoy :p
 
