@@ -12,7 +12,7 @@ Here you can see stuff from https://github.com/react-boilerplate/react-boilerpla
 # What is inside?
 
 * React https://reactjs.org
-* <strike>Redux https://redux.js.org</strike>
+* <strike>Redux https://redux.js.org</strike> Apollo 2.0 no longer uses Redux. Seems that integrate both is not so simple and as a beginner I will not spend time to do that for now.
 * ApolloClient https://github.com/apollographql/apollo-client
 * NodeJS https://nodejs.org
 * Express http://expressjs.com
