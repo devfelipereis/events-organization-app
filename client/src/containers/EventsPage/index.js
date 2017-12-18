@@ -1,14 +1,10 @@
-/*
- * EventsPage
- */
-
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 
-const eventListQuery = gql`
+const EVENT_LIST_QUERY = gql`
   query EventListQuery {
     events {
       id
@@ -25,6 +21,8 @@ export class EventsPage extends React.PureComponent {
   componentDidMount() {}
 
   render() {
+    const { events } = this.props.eventListQuery;
+
     return (
       <article>
         <Helmet>
@@ -33,13 +31,15 @@ export class EventsPage extends React.PureComponent {
         </Helmet>
         <div>You are on the events page</div>
         <ul>
-          {this.props.data.events
-            ? this.props.data.events.map(e => <li key={e.id}>{e.name}</li>)
-            : 'Nenhum evento encontrado'}
+          {events
+            ? events.map(e => <li key={e.id}>{e.name}</li>)
+            : 'No events were found'}
         </ul>
       </article>
     );
   }
 }
 
-export default graphql(eventListQuery)(EventsPage);
+export default graphql(EVENT_LIST_QUERY, { name: 'eventListQuery' })(
+  EventsPage
+);
