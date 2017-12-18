@@ -26,6 +26,7 @@ Here you can see stuff from https://github.com/react-boilerplate/react-boilerpla
 * https://github.com/react-boilerplate/react-boilerplate
 * http://minocys.azurewebsites.net/auth-with-mongoose
 * https://www.howtographql.com
+* https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql/
 
 # Enjoy :p
 

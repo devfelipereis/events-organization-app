@@ -37,6 +37,10 @@ const eventType = new GraphQLObjectType({
       type: GraphQLString,
       description: 'The name of event',
     },
+    startDate: {
+      type: GraphQLString,
+      description: 'When event starts',
+    },
   }),
 });
 
