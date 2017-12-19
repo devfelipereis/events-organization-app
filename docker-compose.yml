@@ -1,0 +1,22 @@
+version: '2'
+services:
+  mongo:
+    image: mongo
+    volumes:
+      - ./db-data:/data/db
+    ports:
+      - "27017:27017"
+  server:
+    build: ./server
+    volumes:
+      - ./server:/server
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+  client:
+    build: ./client
+    volumes:
+      - ./client:/client
+    ports:
+      - "3000:3000"

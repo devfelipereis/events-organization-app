@@ -4,7 +4,7 @@
   "description": "Server for Events Organization App",
   "main": "index.js",
   "scripts": {
-    "dev3": "babel-node index.js"
+    "dev3": "nodemon index.js --exec babel-node"
   },
   "author": "Felipe Reis",
   "license": "ISC",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.13.3"
   }
 }

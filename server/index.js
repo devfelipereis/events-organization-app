@@ -11,7 +11,7 @@ Promise = require('bluebird'); // eslint-disable-line no-global-assign
 mongoose.Promise = Promise;
 
 // connect to mongo db
-const mongoUri = 'mongodb://localhost:27017/events-organization';
+const mongoUri = 'mongodb://mongo:27017/events-organization';
 mongoose.connect(mongoUri, { server: { socketOptions: { keepAlive: 1 } } });
 
 // mongoose events
