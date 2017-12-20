@@ -1,5 +1,7 @@
 # mongodb data from docker
-db-data
+mongo/data/*
+!mongo/data/keyfile
+mongo/data/keyfile/mongo-keyfile
 
 # server stuff
 server/node_modules
