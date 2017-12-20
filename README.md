@@ -19,7 +19,7 @@ Here you can see stuff from https://github.com/react-boilerplate/react-boilerpla
 * GraphQL http://graphql.org https://github.com/graphql/express-graphql
 * MongoDB https://www.mongodb.com/
 * Mongoose http://mongoosejs.com/
-* Docker https://www.docker.com/
+* Docker https://www.docker.com/ ***Now we have it! :)***
 
 # How to run this project?
 
