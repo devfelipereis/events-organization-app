@@ -40,7 +40,7 @@ You should see something like this:
 
 Access the server with **http://localhost:8080/api/graphql** and the client with **http://localhost:3000**.
 
-# Links that I'm using to learn
+# Built upon
 
 * https://github.com/linnovate/mean
 * https://github.com/react-boilerplate/react-boilerplate
