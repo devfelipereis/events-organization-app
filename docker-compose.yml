@@ -10,6 +10,7 @@ services:
     build: ./server
     volumes:
       - ./server:/server
+      - /server/node_modules
     ports:
       - "8080:8080"
     links:
@@ -18,5 +19,6 @@ services:
     build: ./client
     volumes:
       - ./client:/client
+      - /client/node_modules
     ports:
       - "3000:3000"
