@@ -19,22 +19,26 @@ Here you can see stuff from https://github.com/react-boilerplate/react-boilerpla
 * GraphQL http://graphql.org https://github.com/graphql/express-graphql
 * MongoDB https://www.mongodb.com/
 * Mongoose http://mongoosejs.com/
-* Docker https://www.docker.com/ ***Now we have it! :)***
+* Docker https://www.docker.com/ **_Now we have it! :)_**
 
 # How to run this project?
 
 * Install [Docker](https://docs.docker.com/engine/installation/) and [Docker Compose](https://docs.docker.com/compose/)
 * Clone this project and in the root directory, run from your terminal:
+
 ```
 $ docker-compose up
 ```
+
 Wait to finish. You should see something like this:
 ![Imgur](https://i.imgur.com/eoPh7c4.png)
 
 Open up a new tab in your terminal and run:
+
 ```
 $ docker ps
 ```
+
 You should see something like this:
 ![Imgur](https://i.imgur.com/FbCF5Rh.png)
 
@@ -46,7 +50,8 @@ Access the server with **http://localhost:8080/api/graphql** and the client with
 * https://github.com/react-boilerplate/react-boilerplate
 * http://minocys.azurewebsites.net/auth-with-mongoose
 * https://www.howtographql.com
-* https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql/
+* https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql
+* https://github.com/kriasoft/nodejs-api-starter
 
 # Enjoy :p
 
