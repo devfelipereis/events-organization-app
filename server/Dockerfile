@@ -9,6 +9,6 @@ RUN apt-get install -y apt-transport-https && apt-get update && apt-get install 
 RUN mkdir /server
 WORKDIR /server
 COPY . /server
-RUN yarn install
+RUN yarn install --no-cache --frozen-lockfile
 EXPOSE 8080
 CMD ["npm", "run", "dev3"]
