@@ -1,4 +1,11 @@
 {
   "editor.formatOnSave": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "eslint.enable": true,
+  "search.exclude": {
+    "**/node_modules": true,
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  }
 }
